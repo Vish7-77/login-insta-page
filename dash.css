@@ -9,6 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
     align-items: center;
     flex-direction: column;
     background-color: #c7c7c7;
@@ -57,9 +58,118 @@
 }
 
 .mainscroll{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
     background-color: #fff;
 
+}
+
+
+.firstpost{
+    width: 90%;
+    height: 50%;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.accountstatus{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid rgb(37, 36, 36);
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftacc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.accimg{
+    height: 80%;
+    width: 26%;
+    border-radius: 100%;
+
+}
+
+.accimg>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.username{
+    font-size: 12px;
+    margin-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.rightacc{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.rightacc>span{
+    width: 10px;
+    height: 9px;
+}
+
+.actPost{
+    width: 100%;height: 70%;
+    /* padding-top: 3px ; */
+    /* background-color: black; */
+}
+.actPost>img{
+    width: 100%;height: 100%;
+    /* background-color: black; */
+}
+
+
+.lSC{
+    display: flex;
+    width: 100%;
+    height: 7%;
+    align-items: center;
+}
+
+.ml-2{
+    margin-left: 8px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.ml-2:hover{
+   scale: 1.1;
+}
+
+.desc{
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    /* display: flex; */
+
+}
+
+.userid{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dummytxt{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
